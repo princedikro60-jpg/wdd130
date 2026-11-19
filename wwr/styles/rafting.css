@@ -1,8 +1,8 @@
 :root {
     --primary-color: #0b3954;
     --secondary-color: #087e8b;
-    --accent1-color: #bfd7ea;
-    --accent2-color: #ff5a5f;
+
+    --hero-pos-backgrnd: rgba(11, 57, 84, 0.8);
 
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -79,7 +79,7 @@ article {
     width: 100%;
     text-align: center;
     padding: 16px;
-    background-color: rgba(11, 57, 84, 0.8);
+    background-color: var(--hero-pos-backgrnd);
     color: white;
 }
 
@@ -88,7 +88,7 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(191, 215, 234, 0.9);
+    background-color: var(---hero-pos-backgrnd);
     color: #000;
 }
 
