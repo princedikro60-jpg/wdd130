@@ -1,9 +1,7 @@
 :root {
     --primary-color: #0b3954;
     --secondary-color: #087e8b;
-
     --hero-pos-backgrnd: rgba(11, 57, 84, 0.8);
-
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -50,6 +48,10 @@ nav a {
     padding: 10px;
 }
 
+nav a:hover {
+    color: var(--secondary-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -88,7 +90,7 @@ article {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: var(---hero-pos-backgrnd);
+    background-color: var(--hero-pos-backgrnd);
     color: #000;
 }
 
